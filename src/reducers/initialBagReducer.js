@@ -15,7 +15,7 @@ export const InitialbagReducer = (
         isPending: false,
         error: true,
       };
-      break;
+//       break;
 
     case FETCH_CATS_SUCCESS:
       return {
@@ -23,7 +23,7 @@ export const InitialbagReducer = (
         isPending: false,
         error: false,
       };
-      break;
+//       break;
 
     case FETCH_CATS_PENDING:
       return {
@@ -34,6 +34,6 @@ export const InitialbagReducer = (
 
     default:
       return state;
-      break;
+//       break;
   }
 };
